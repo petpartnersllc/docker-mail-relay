@@ -21,7 +21,7 @@ Exports
 Variables
 ---------
 
-* `RELAY_HOST_NAME=relay.example.com`: A DNS name for this relay container (usually the same as the Docker's hostname)
+* `RELAY_HOST_NAME=mitelemailserver.petpartners.local`: A DNS name for this relay container (usually the same as the Docker's hostname)
 * `ACCEPTED_NETWORKS=192.168.0.0/16 172.16.0.0/12 10.0.0.0/8`: A network (or a list of networks) to accept mail from
 * `EXT_RELAY_HOST=smtp.fastmail.com`: External relay DNS name
 * `EXT_RELAY_PORT=587`: External relay TCP port
